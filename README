@@ -1,0 +1,32 @@
+btcspy
+
+GPL v3
+David Llewellyn-Jones
+D.Llewellyn-Jones@ljmu.ac.uk
+david@flypig.co.uk
+http://www.flypig.co.uk
+
+
+To use btcspy as a standalone script, open a command window in the 
+btcspy folder (you can do this by Shift-Right-Clicking on the folder
+and selecting "Open command window here" from the menu). Then type the
+following
+
+btcspy.ph
+
+For help type
+
+btcspy.ph --help
+
+To use btcspy within a Python program (or in the Python interpreter)
+you can do the following:
+
+import btcspy
+result = btcspy.history()
+print (result)
+
+Note that for this to work, the contents of the btcspy folder has to be 
+in the currently selected directory.
+
+For more information, please feel free to contact David
+D.Llewellyn-Jones@ljmu.ac.uk
