@@ -14,11 +14,11 @@ At present btcspy works on Linux and Windows. It should also work on Android wal
 
 To use btcspy as a standalone utility, simply execute it as a python script. Open a command window in the btcspy folder (you can do this by Shift-Right-Clicking on the folder and selecting **Open command window here** from the menu). Then type the following.
 ```
-btcspy.ph
+btcspy.py
 ```
 For help type:
 ```
-btcspy.ph --help
+btcspy.py --help
 ```
 A list of transactions will then be output in JSON format.  The txid entry can be used to match the transaction against the public blockchain, for example using a service such as https://blockchain.info/ . The blockchain provides externally validated details about the time, recipient and Bitcoin IDs used in the transaction.
 
